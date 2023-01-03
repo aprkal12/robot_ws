@@ -1,0 +1,8 @@
+[console_scripts]
+mp = m_pubsub.mpub:main
+mp2 = m_pubsub.m_pub2:main
+ms = m_pubsub.msub:main
+mt = m_pubsub.mtime:main
+tms = m_pubsub.tm_sub:main
+tp = m_pubsub.t_pub:main
+

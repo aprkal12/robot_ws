@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.426" timestamp="2023-01-02T17:28:13.240369" hostname="ubuntu"><testcase classname="m_pubsub.test.test_copyright" name="test_copyright" time="0.032"><failure message="AssertionError: Found errors&#10;assert 1 == 0">test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0</failure></testcase><testcase classname="m_pubsub.test.test_flake8" name="test_flake8" time="0.198"><failure message="AssertionError: Found 15 code style errors / warnings:&#10;  ./m_pubsub/mpub.py:5:1: E302 expected 2 blank lines, found 1&#10;  ./m_pubsub/mpub.py:6:1: CNL100 Class definition does not have a new line.&#10;  ./m_pubsub/mpub.py:6:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:12:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:14:16: Q000 Double quotes found but single quotes preferred&#10;  ./m_pubsub/mpub.py:19:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./m_pubsub/mpub.py:19:16: E251 unexpected spaces around keyword / parameter equals&#10;  ./m_pubsub/mpub.py:20:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:21:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:22:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:24:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:26:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:28:3: E111 indentation is not a multiple of four&#10;  ./m_pubsub/mpub.py:30:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./m_pubsub/mpub.py:31:3: E111 indentation is not a multiple of four&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 15 code style errors / warnings:
+E     ./m_pubsub/mpub.py:5:1: E302 expected 2 blank lines, found 1
+E     ./m_pubsub/mpub.py:6:1: CNL100 Class definition does not have a new line.
+E     ./m_pubsub/mpub.py:6:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:12:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:14:16: Q000 Double quotes found but single quotes preferred
+E     ./m_pubsub/mpub.py:19:14: E251 unexpected spaces around keyword / parameter equals
+E     ./m_pubsub/mpub.py:19:16: E251 unexpected spaces around keyword / parameter equals
+E     ./m_pubsub/mpub.py:20:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:21:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:22:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:24:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:26:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:28:3: E111 indentation is not a multiple of four
+E     ./m_pubsub/mpub.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./m_pubsub/mpub.py:31:3: E111 indentation is not a multiple of four
+E   assert 1 == 0</failure></testcase><testcase classname="m_pubsub.test.test_pep257" name="test_pep257" time="0.024" /></testsuite></testsuites>

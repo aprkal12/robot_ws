@@ -1,0 +1,25 @@
+[1.710s] Invoking command in '/home/python/robot_ws/build/move_turtle_pkg': PYTHONPATH=/home/python/robot_ws/build/move_turtle_pkg/prefix_override:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[2.119s] running develop
+[2.563s] running egg_info
+[2.570s] creating move_turtle_pkg.egg-info
+[2.571s] writing move_turtle_pkg.egg-info/PKG-INFO
+[2.571s] writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt
+[2.571s] writing entry points to move_turtle_pkg.egg-info/entry_points.txt
+[2.573s] writing requirements to move_turtle_pkg.egg-info/requires.txt
+[2.573s] writing top-level names to move_turtle_pkg.egg-info/top_level.txt
+[2.574s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.679s] reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.683s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.809s] running build_ext
+[2.811s] Creating /home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/site.py
+[2.822s] Creating /home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)
+[2.826s] Installing tp script to /home/python/robot_ws/install/move_turtle_pkg/lib/move_turtle_pkg
+[2.835s] 
+[2.835s] Installed /home/python/robot_ws/build/move_turtle_pkg
+[2.835s] running install_data
+[2.835s] creating /home/python/robot_ws/install/move_turtle_pkg/share/ament_index
+[2.835s] creating /home/python/robot_ws/install/move_turtle_pkg/share/ament_index/resource_index
+[2.835s] creating /home/python/robot_ws/install/move_turtle_pkg/share/ament_index/resource_index/packages
+[2.872s] copying resource/move_turtle_pkg -> /home/python/robot_ws/install/move_turtle_pkg/share/ament_index/resource_index/packages
+[2.872s] copying package.xml -> /home/python/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg
+[2.946s] Invoked command in '/home/python/robot_ws/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/python/robot_ws/build/move_turtle_pkg/prefix_override:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/move_turtle_pkg/build --no-deps install_data

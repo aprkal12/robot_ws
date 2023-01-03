@@ -1,17 +1,21 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from rclpy.qos import QoSProfile
 
 class M_pub(Node):
   def __init__(self):
     super().__init__('message_publisher')
-    self.message_publisher = self.create_publisher(String, 'm_pub', 10)
+    self.qos_profile = QoSProfile(depth = 10)
+    self.message_publisher = self.create_publisher(String, 'message', self.qos_profile)
     self.timer = self.create_timer(1, self.m_publisher)
     self.count = 0
 
-  def m_publisher(self, msg):
-    msg.data = "hellow" + self.count
-    self.message_publisher.publish()
+  def m_publisher(self):
+    msg = String()
+    msg.data = "hellow" + str(self.count)
+    self.message_publisher.publish(msg)
+    self.get_logger().info('publishing message : ' + msg.data)
     self.count += 1
 
 

@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict([('m_pubsub', '/home/python/robot_ws/install/m_pubsub')])}
+[0.001359] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.099577] (-) TimerEvent: {}
+[0.200629] (-) TimerEvent: {}
+[0.301031] (-) TimerEvent: {}
+[0.324572] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/python/robot_ws/src/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'python', 'LC_TIME': 'en_US.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/python', 'OLDPWD': '/home/python', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1423', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36317', '_colcon_cd_root': '/home/python/robot_ws', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'python', 'JOURNAL_STREAM': '8:46547', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'python', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629', 'INVOCATION_ID': 'b88daee07015465ba8b902e860ac29ec', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8f5facdc-0385-428d-99c3-89e69477d8c2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/python/robot_ws/build/m_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/python/robot_ws/build/m_pubsub:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/python/robot_ws/build/m_pubsub/pytest.xml --junit-prefix=m_pubsub -o cache_dir=/home/python/robot_ws/build/m_pubsub/.pytest_cache'}, 'shell': False}
+[0.401535] (-) TimerEvent: {}
+[0.502077] (-) TimerEvent: {}
+[0.602473] (-) TimerEvent: {}
+[0.703185] (-) TimerEvent: {}
+[0.803849] (-) TimerEvent: {}
+[0.904455] (-) TimerEvent: {}
+[1.005646] (-) TimerEvent: {}
+[1.106088] (-) TimerEvent: {}
+[1.162005] (m_pubsub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[1.162259] (m_pubsub) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-7.2.0, pluggy-0.13.0\n'}
+[1.172100] (m_pubsub) StdoutLine: {'line': b'cachedir: /home/python/robot_ws/build/m_pubsub/.pytest_cache\n'}
+[1.172362] (m_pubsub) StdoutLine: {'line': b'rootdir: /home/python/robot_ws/src/m_pubsub\n'}
+[1.172474] (m_pubsub) StdoutLine: {'line': b'plugins: launch-testing-ros-0.11.7, ament-flake8-0.9.7, ament-pep257-0.9.7, ament-copyright-0.9.7, ament-lint-0.9.7, ament-xmllint-0.9.7, launch-testing-0.10.10, repeat-0.9.1, rerunfailures-10.3, colcon-core-0.11.0, cov-2.8.1\n'}
+[1.206514] (-) TimerEvent: {}
+[1.274556] (m_pubsub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.274838] (m_pubsub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[1.275006] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.306795] (-) TimerEvent: {}
+[1.343901] (m_pubsub) StdoutLine: {'line': b'test/test_copyright.py \x1b[31mF\x1b[0m\x1b[31m                                                 [ 33%]\x1b[0m\n'}
+[1.407284] (-) TimerEvent: {}
+[1.507745] (-) TimerEvent: {}
+[1.550909] (m_pubsub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.580276] (m_pubsub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.580837] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.581211] (m_pubsub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.581792] (m_pubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m________________________________ test_copyright ________________________________\x1b[0m\n'}
+[1.582010] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_copyright.py\x1b[0m:23: in test_copyright\n'}
+[1.608172] (-) TimerEvent: {}
+[1.617658] (m_pubsub) StdoutLine: {'line': b"    \x1b[34;01massert\x1b[39;49;00m rc == \x1b[34;01m0\x1b[39;49;00m, \x1b[33m'\x1b[39;49;00m\x1b[33mFound errors\x1b[39;49;00m\x1b[33m'\x1b[39;49;00m\n"}
+[1.617876] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found errors\x1b[0m\n'}
+[1.617992] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.618261] (m_pubsub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.618403] (m_pubsub) StdoutLine: {'line': b'm_pubsub/mpub.py: could not find copyright notice\n'}
+[1.618536] (m_pubsub) StdoutLine: {'line': b'1 errors, checked 6 files\n'}
+[1.618619] (m_pubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.618698] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.619302] (m_pubsub) StdoutLine: {'line': b'    \x1b[34;01massert\x1b[39;49;00m rc == \x1b[34;01m0\x1b[39;49;00m, \\\n'}
+[1.619859] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 15 code style errors / warnings:\x1b[0m\n'}
+[1.620074] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:5:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.620241] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:6:1: CNL100 Class definition does not have a new line.\x1b[0m\n'}
+[1.620405] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:6:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.623484] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:12:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.623613] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:14:16: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[1.623706] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:19:14: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[1.623790] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:19:16: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[1.623873] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:20:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.623995] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:21:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624080] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:22:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624159] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:24:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624238] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:26:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624316] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:28:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624413] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:30:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[1.624531] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./m_pubsub/mpub.py:31:3: E111 indentation is not a multiple of four\x1b[0m\n'}
+[1.624610] (m_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.624700] (m_pubsub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.624820] (m_pubsub) StderrLine: {'line': b'../../../../../usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[1.624925] (m_pubsub) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[1.625022] (m_pubsub) StderrLine: {'line': b'\n'}
+[1.625098] (m_pubsub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n'}
+[1.625175] (m_pubsub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.625255] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.625332] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[1.625442] (m_pubsub) StdoutLine: {'line': b'class M_pub(Node):\n'}
+[1.625532] (m_pubsub) StdoutLine: {'line': b'^\n'}
+[1.625611] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.625688] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:6:1: CNL100 Class definition does not have a new line.\n'}
+[1.625775] (m_pubsub) StdoutLine: {'line': b'  def __init__(self):\n'}
+[1.625853] (m_pubsub) StdoutLine: {'line': b'^\n'}
+[1.625971] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.626053] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:6:3: E111 indentation is not a multiple of four\n'}
+[1.626134] (m_pubsub) StdoutLine: {'line': b'  def __init__(self):\n'}
+[1.626212] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.626289] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.626367] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:12:3: E111 indentation is not a multiple of four\n'}
+[1.626499] (m_pubsub) StdoutLine: {'line': b'  def m_publisher(self):\n'}
+[1.626582] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.626662] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.626740] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:14:16: Q000 Double quotes found but single quotes preferred\n'}
+[1.626819] (m_pubsub) StdoutLine: {'line': b'    msg.data = "hellow" + self.count\n'}
+[1.626946] (m_pubsub) StdoutLine: {'line': b'               ^\n'}
+[1.627029] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.627105] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:19:14: E251 unexpected spaces around keyword / parameter equals\n'}
+[1.627183] (m_pubsub) StdoutLine: {'line': b'def main(args = None):\n'}
+[1.627259] (m_pubsub) StdoutLine: {'line': b'             ^\n'}
+[1.627336] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.629204] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:19:16: E251 unexpected spaces around keyword / parameter equals\n'}
+[1.629448] (m_pubsub) StdoutLine: {'line': b'def main(args = None):\n'}
+[1.629640] (m_pubsub) StdoutLine: {'line': b'               ^\n'}
+[1.629811] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.630022] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:20:3: E111 indentation is not a multiple of four\n'}
+[1.630195] (m_pubsub) StdoutLine: {'line': b'  rclpy.init(args=args)\n'}
+[1.630410] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.630603] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.630767] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:21:3: E111 indentation is not a multiple of four\n'}
+[1.630987] (m_pubsub) StdoutLine: {'line': b'  node = M_pub()\n'}
+[1.631157] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.631322] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.631571] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:22:3: E111 indentation is not a multiple of four\n'}
+[1.631740] (m_pubsub) StdoutLine: {'line': b'  try:\n'}
+[1.631949] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.632117] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.632283] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:24:3: E111 indentation is not a multiple of four\n'}
+[1.632506] (m_pubsub) StdoutLine: {'line': b'  except KeyboardInterrupt:\n'}
+[1.633251] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.633474] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.633647] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:26:3: E111 indentation is not a multiple of four\n'}
+[1.633813] (m_pubsub) StdoutLine: {'line': b'  finally:\n'}
+[1.634025] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.634191] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.635154] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:28:3: E111 indentation is not a multiple of four\n'}
+[1.635410] (m_pubsub) StdoutLine: {'line': b"  print('aaa')\n"}
+[1.635609] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.635782] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.636009] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:30:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.636181] (m_pubsub) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.636385] (m_pubsub) StdoutLine: {'line': b'^\n'}
+[1.636561] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.636725] (m_pubsub) StdoutLine: {'line': b'./m_pubsub/mpub.py:31:3: E111 indentation is not a multiple of four\n'}
+[1.639623] (m_pubsub) StdoutLine: {'line': b'  main()\n'}
+[1.639908] (m_pubsub) StdoutLine: {'line': b'  ^\n'}
+[1.640100] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.640334] (m_pubsub) StdoutLine: {'line': b'1     CNL100 Class definition does not have a new line.\n'}
+[1.640531] (m_pubsub) StdoutLine: {'line': b'9     E111 indentation is not a multiple of four\n'}
+[1.640704] (m_pubsub) StdoutLine: {'line': b'2     E251 unexpected spaces around keyword / parameter equals\n'}
+[1.640920] (m_pubsub) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 1\n'}
+[1.641095] (m_pubsub) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.641281] (m_pubsub) StdoutLine: {'line': b'1     Q000 Double quotes found but single quotes preferred\n'}
+[1.641474] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.641641] (m_pubsub) StdoutLine: {'line': b'7 files checked\n'}
+[1.641849] (m_pubsub) StdoutLine: {'line': b'15 errors\n'}
+[1.642022] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.642185] (m_pubsub) StdoutLine: {'line': b"'C'-type errors: 1\n"}
+[1.642393] (m_pubsub) StdoutLine: {'line': b"'E'-type errors: 13\n"}
+[1.642561] (m_pubsub) StdoutLine: {'line': b"'Q'-type errors: 1\n"}
+[1.642724] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.643017] (m_pubsub) StdoutLine: {'line': b'Checked files:\n'}
+[1.643188] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.643446] (m_pubsub) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.643630] (m_pubsub) StdoutLine: {'line': b'* ./m_pubsub/msub.py\n'}
+[1.643855] (m_pubsub) StdoutLine: {'line': b'* ./m_pubsub/mpub.py\n'}
+[1.644038] (m_pubsub) StdoutLine: {'line': b'* ./m_pubsub/__init__.py\n'}
+[1.644216] (m_pubsub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.646112] (m_pubsub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.646365] (m_pubsub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.646545] (m_pubsub) StdoutLine: {'line': b'----- generated xml file: /home/python/robot_ws/build/m_pubsub/pytest.xml ------\n'}
+[1.646733] (m_pubsub) StdoutLine: {'line': b'\x1b[36m\x1b[1m=========================== short test summary info ============================\x1b[0m\n'}
+[1.647027] (m_pubsub) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_copyright.py::\x1b[1mtest_copyright\x1b[0m - AssertionError: Found errors\n'}
+[1.647531] (m_pubsub) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_flake8.py::\x1b[1mtest_flake8\x1b[0m - AssertionError: Found 15 code style errors / warnings:\n'}
+[1.647858] (m_pubsub) StdoutLine: {'line': b'\x1b[31m==================== \x1b[31m\x1b[1m2 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 warning\x1b[0m\x1b[31m in 0.46s\x1b[0m\x1b[31m ====================\x1b[0m\n'}
+[1.708353] (-) TimerEvent: {}
+[1.710937] (m_pubsub) CommandEnded: {'returncode': 1}
+[1.712073] (m_pubsub) TestFailure: {'identifier': 'm_pubsub'}
+[1.712161] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[1.714947] (-) EventReactorShutdown: {}
