@@ -10,6 +10,7 @@ class Move_turtle(Node):
     self.qos_profile = QoSProfile(depth = 10)
     self.move_turtle = self.create_publisher(Twist, 'turtle1/cmd_vel', self.qos_profile)
     self.move_turtle2 = self.create_publisher(Twist, 'turtle2/cmd_vel', self.qos_profile)
+    self.move_turtle3 = self.create_publisher(Twist, 'turtle3/cmd_vel', self.qos_profile)
     self.timer = self.create_timer(0.1, self.turtle_move)
     # self.x = 0.0
 
@@ -28,7 +29,10 @@ class Move_turtle(Node):
     # else:
     #   self.x-=0.01
     self.move_turtle.publish(msg)
+    msg.angular.z = 0.7
     self.move_turtle2.publish(msg)
+    msg.angular.z = 0.5
+    self.move_turtle3.publish(msg)
     self.get_logger().info(f'publishing message : {msg.linear}, {msg.angular}')
 
 

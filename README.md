@@ -39,3 +39,5 @@
 
 * ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r : 100, g : 100, b : 100, width : 5}"
   * => 터틀 펜색상 변경
+
+* 삼각함수 이해필요 ros는 radian 사용
