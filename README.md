@@ -9,3 +9,33 @@
   * turtlesim_node 실행 후 teleop으로 움직임 확인
 * terminator 설치.
   * sudo apt install terminator
+
+- - -
+# 2023_01_03
+- - -
+* qos 개념
+
+* 과제
+* message 토픽
+* subscribe 2개 message, type
+* message_pub, time_pub -> message_time -> sub
+
+* SaaS
+  * software as a service
+* Paas
+  * platporm as a service
+
+* ros2 pkg create --build-type ament_python move_turtle_pkg
+  * => ros 패키지 생성
+
+* ros2 run turtlesim turtlesim_node --ros-args -r __ns:=/ns1
+  * => 터틀 노드 네임스페이스 지정
+
+* --ros-args -r __ns:=/ns1
+  * => 퍼블리쉬할 때도 뒤에 지정했던 네임스페이스 찾으면 된다.
+
+* ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.5, y: 7.0, theta: 1.5, name : 'turtle2'}"
+  * => 터틀노드 여러개
+
+* ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r : 100, g : 100, b : 100, width : 5}"
+  * => 터틀 펜색상 변경
