@@ -1,7 +1,8 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
-from class_test_interfaces import Fibonacci
+from class_test_interfaces.action import Fibonacci
+import time
 
 class FibonacciActionServer(Node):
   def __init__(self):
@@ -9,12 +10,18 @@ class FibonacciActionServer(Node):
     self.action_server = ActionServer(self, Fibonacci, 'fibonacci', self.fibocall)
 
   def fibocall(self, goal_handle):
-    sequence = [0, 1]
+    feedback_msg = Fibonacci.Feedback()
+    feedback_msg.part_array = [0, 1]
 
     for i in range(1, goal_handle.request.number):
-      sequence.append(sequence[i]+sequence[i-1])
+      feedback_msg.part_array.append(feedback_msg.part_array[i]+feedback_msg.part_array[i-1])
+      self.get_logger().info(f'Feedback {feedback_msg.part_array}')
+      goal_handle.publish_feedback(feedback_msg)
+      time.sleep(1)
+
     goal_handle.succeed()
     result = Fibonacci.Result()
+    result.array = feedback_msg.part_array
     return result
 
 

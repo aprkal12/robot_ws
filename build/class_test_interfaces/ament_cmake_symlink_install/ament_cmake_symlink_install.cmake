@@ -358,6 +358,9 @@ ament_cmake_symlink_install_directory("/home/python/robot_ws/src/class_test_inte
 # install(DIRECTORY "/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_py/class_test_interfaces/srv/" "DESTINATION" "lib/python3.8/site-packages/class_test_interfaces/srv" "PATTERN" "*.py")
 ament_cmake_symlink_install_directory("/home/python/robot_ws/src/class_test_interfaces" DIRECTORY "/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_py/class_test_interfaces/srv/" "DESTINATION" "lib/python3.8/site-packages/class_test_interfaces/srv" "PATTERN" "*.py")
 
+# install(DIRECTORY "/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_py/class_test_interfaces/action/" "DESTINATION" "lib/python3.8/site-packages/class_test_interfaces/action" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/python/robot_ws/src/class_test_interfaces" DIRECTORY "/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_py/class_test_interfaces/action/" "DESTINATION" "lib/python3.8/site-packages/class_test_interfaces/action" "PATTERN" "*.py")
+
 # install("TARGETS" "class_test_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/class_test_interfaces")
 include("/home/python/robot_ws/build/class_test_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
@@ -379,6 +382,9 @@ ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfac
 # install(FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/srv/MinusThreeInts.idl" "DESTINATION" "share/class_test_interfaces/srv")
 ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/srv/MinusThreeInts.idl" "DESTINATION" "share/class_test_interfaces/srv")
 
+# install(FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/action/Fibonacci.idl" "DESTINATION" "share/class_test_interfaces/action")
+ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/action/Fibonacci.idl" "DESTINATION" "share/class_test_interfaces/action")
+
 # install(FILES "/home/python/robot_ws/src/class_test_interfaces/msg/Intfloat.msg" "DESTINATION" "share/class_test_interfaces/msg")
 ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/src/class_test_interfaces/msg/Intfloat.msg" "DESTINATION" "share/class_test_interfaces/msg")
 
@@ -399,6 +405,9 @@ ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfac
 
 # install(FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_cmake/srv/MinusThreeInts_Response.msg" "DESTINATION" "share/class_test_interfaces/srv")
 ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/build/class_test_interfaces/rosidl_cmake/srv/MinusThreeInts_Response.msg" "DESTINATION" "share/class_test_interfaces/srv")
+
+# install(FILES "/home/python/robot_ws/src/class_test_interfaces/action/Fibonacci.action" "DESTINATION" "share/class_test_interfaces/action")
+ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/src/class_test_interfaces/action/Fibonacci.action" "DESTINATION" "share/class_test_interfaces/action")
 
 # install(FILES "/home/python/robot_ws/build/class_test_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/class_test_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/python/robot_ws/src/class_test_interfaces" FILES "/home/python/robot_ws/build/class_test_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/class_test_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

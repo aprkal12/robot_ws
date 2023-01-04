@@ -23,7 +23,8 @@ setup(
             'mss1 = test_num.test_service_ser1:main',
             'msc1 = test_num.test_service_client:main',
             'msc2 = test_num.test_service_client2:main',
-            'fs = test_num.fibonacci_action_server:main'
+            'fs = test_num.fibonacci_action_server:main',
+            'fc = test_num.fibonacci_action_client:main'
         ],
     },
 )

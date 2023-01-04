@@ -5,7 +5,17 @@
   "idl_tuples": [
     "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces:msg/Intfloat.idl",
     "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces:srv/AddThreeInts.idl",
-    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces:srv/MinusThreeInts.idl"
+    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces:srv/MinusThreeInts.idl",
+    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces:action/Fibonacci.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -16,6 +26,14 @@
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/msg/Intfloat.idl",
     "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/srv/AddThreeInts.idl",
-    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/srv/MinusThreeInts.idl"
+    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/srv/MinusThreeInts.idl",
+    "/home/python/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces/action/Fibonacci.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }
