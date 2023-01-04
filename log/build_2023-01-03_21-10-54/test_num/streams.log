@@ -1,0 +1,18 @@
+[0.973s] Invoking command in '/home/python/robot_ws/build/test_num': PYTHONPATH=/home/python/robot_ws/build/test_num/prefix_override:/home/python/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/test_num/build --no-deps install_data
+[1.301s] running develop
+[1.481s] running egg_info
+[1.481s] writing test_num.egg-info/PKG-INFO
+[1.481s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.482s] writing entry points to test_num.egg-info/entry_points.txt
+[1.482s] writing requirements to test_num.egg-info/requires.txt
+[1.483s] writing top-level names to test_num.egg-info/top_level.txt
+[1.523s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.524s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.570s] running build_ext
+[1.570s] Creating /home/python/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.572s] Installing msc1 script to /home/python/robot_ws/install/test_num/lib/test_num
+[1.572s] Installing mss1 script to /home/python/robot_ws/install/test_num/lib/test_num
+[1.572s] 
+[1.573s] Installed /home/python/robot_ws/build/test_num
+[1.573s] running install_data
+[1.611s] Invoked command in '/home/python/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/python/robot_ws/build/test_num/prefix_override:/home/python/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/test_num/build --no-deps install_data

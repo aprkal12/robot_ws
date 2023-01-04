@@ -1,3 +1,4 @@
 [console_scripts]
+msc1 = test_num.test_service_client:main
 mss1 = test_num.test_service_ser1:main
 

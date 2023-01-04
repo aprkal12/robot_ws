@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mss1 = test_num.test_service_ser1:main'
+            'mss1 = test_num.test_service_ser1:main',
+            'msc1 = test_num.test_service_client:main'
         ],
     },
 )
