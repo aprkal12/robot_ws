@@ -3,6 +3,7 @@ from rclpy.node import Node
 from class_test_interfaces.srv import AddThreeInts
 # import sys
 
+# add 코드
 class Num_cli(Node):
   def __init__(self):
     super().__init__('add_int_client')
