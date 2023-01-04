@@ -47,5 +47,12 @@
 ---
 # 2023_01_04
 ---
-* 서비스(서버) 제작
+* 서비스(서버) 제작해보기
+  * Node.create_service (test_service_ser1 참고)
+  * Node.create_client (test_service_client 참고)
+
+* 인터페이스 패키지 제작해보기
+
+* ros2 pkg create --build-type ament_cmake class_test_interfaces
+  * => 인터페이스 패키지 만들기 (class_test_interfaces.srv 참고)
 
