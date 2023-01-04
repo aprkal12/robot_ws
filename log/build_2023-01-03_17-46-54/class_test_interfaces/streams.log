@@ -1,0 +1,26 @@
+[0.067s] Invoking command in '/home/python/robot_ws/build/class_test_interfaces': CMAKE_PREFIX_PATH=/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/python/robot_ws/src/class_test_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/python/robot_ws/install/class_test_interfaces
+[0.327s] -- The C compiler identification is GNU 9.4.0
+[0.559s] -- The CXX compiler identification is GNU 9.4.0
+[0.588s] -- Check for working C compiler: /usr/bin/cc
+[0.738s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.741s] -- Detecting C compiler ABI info
+[0.847s] -- Detecting C compiler ABI info - done
+[0.863s] -- Detecting C compile features
+[0.864s] -- Detecting C compile features - done
+[0.871s] -- Check for working CXX compiler: /usr/bin/c++
+[1.007s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.008s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.156s] -- Detecting CXX compile features
+[1.158s] -- Detecting CXX compile features - done
+[1.175s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.226s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.553s] CMake Error at CMakeLists.txt:21 (rosidl_generate_interfaces):
+[1.553s]   Unknown CMake command "rosidl_generate_interfaces".
+[1.554s] 
+[1.554s] 
+[1.555s] -- Configuring incomplete, errors occurred!
+[1.555s] See also "/home/python/robot_ws/build/class_test_interfaces/CMakeFiles/CMakeOutput.log".
+[1.561s] Invoked command in '/home/python/robot_ws/build/class_test_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/python/robot_ws/src/class_test_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/python/robot_ws/install/class_test_interfaces

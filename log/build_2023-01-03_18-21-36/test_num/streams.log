@@ -1,0 +1,24 @@
+[0.999s] Invoking command in '/home/python/robot_ws/build/test_num': PYTHONPATH=/home/python/robot_ws/build/test_num/prefix_override:/home/python/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/test_num/build --no-deps install_data
+[1.345s] running develop
+[1.521s] running egg_info
+[1.522s] creating test_num.egg-info
+[1.523s] writing test_num.egg-info/PKG-INFO
+[1.523s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.524s] writing entry points to test_num.egg-info/entry_points.txt
+[1.525s] writing requirements to test_num.egg-info/requires.txt
+[1.525s] writing top-level names to test_num.egg-info/top_level.txt
+[1.527s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.567s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.568s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.615s] running build_ext
+[1.616s] Creating /home/python/robot_ws/install/test_num/lib/python3.8/site-packages/site.py
+[1.618s] Creating /home/python/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.620s] 
+[1.620s] Installed /home/python/robot_ws/build/test_num
+[1.620s] running install_data
+[1.621s] creating /home/python/robot_ws/install/test_num/share/ament_index
+[1.621s] creating /home/python/robot_ws/install/test_num/share/ament_index/resource_index
+[1.622s] creating /home/python/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.622s] copying resource/test_num -> /home/python/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.622s] copying package.xml -> /home/python/robot_ws/install/test_num/share/test_num
+[1.654s] Invoked command in '/home/python/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/python/robot_ws/build/test_num/prefix_override:/home/python/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/test_num/build --no-deps install_data

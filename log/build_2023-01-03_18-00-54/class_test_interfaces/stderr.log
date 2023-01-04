@@ -1,0 +1,18 @@
+In file included from [01m[K/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_c/class_test_interfaces/msg/detail/intfloat__functions.h:19[m[K,
+                 from [01m[K/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_c/class_test_interfaces/msg/detail/intfloat__functions.c:4[m[K:
+[01m[K/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_c/class_test_interfaces/msg/detail/intfloat__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kclass_test_interfaces/msg/detail/int__struct.h: No such file or directory
+   22 | #include [01;31m[K"class_test_interfaces/msg/detail/int__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/build.make:124: CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/class_test_interfaces/msg/detail/intfloat__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:496: CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/python/robot_ws/build/class_test_interfaces/rosidl_typesupport_cpp/class_test_interfaces/msg/intfloat__type_support.cpp:7[m[K:
+[01m[K/home/python/robot_ws/build/class_test_interfaces/rosidl_generator_cpp/class_test_interfaces/msg/detail/intfloat__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kclass_test_interfaces/msg/detail/int__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"class_test_interfaces/msg/detail/int__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/build.make:81: CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interfaces/msg/intfloat__type_support.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:179: CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

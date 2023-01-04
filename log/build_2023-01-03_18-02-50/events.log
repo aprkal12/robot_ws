@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (class_test_interfaces) JobQueued: {'identifier': 'class_test_interfaces', 'dependencies': OrderedDict()}
+[0.000314] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.000356] (move_turtle_pkg) JobQueued: {'identifier': 'move_turtle_pkg', 'dependencies': OrderedDict()}
+[0.000414] (class_test_interfaces) JobStarted: {'identifier': 'class_test_interfaces'}
+[0.029867] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.052869] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'cmake'}
+[0.055236] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'build'}
+[0.055354] (class_test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/python/robot_ws/build/class_test_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/python/robot_ws/build/class_test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'python'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1594'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/python'), ('OLDPWD', '/home/python/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1423'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '63748'), ('_colcon_cd_root', '/home/python/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/python/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'python'), ('JOURNAL_STREAM', '8:46547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'python'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629'), ('INVOCATION_ID', 'b88daee07015465ba8b902e860ac29ec'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:648b136d-1322-40ac-9aa5-2314cf028942'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/python/robot_ws/build/class_test_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/python/robot_ws/build/move_turtle_pkg:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/python/robot_ws/build/m_pubsub:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.101123] (-) TimerEvent: {}
+[0.124251] (class_test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.183682] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.183950] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.201695] (-) TimerEvent: {}
+[0.302814] (-) TimerEvent: {}
+[0.403503] (-) TimerEvent: {}
+[0.504525] (-) TimerEvent: {}
+[0.540431] (class_test_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.550143] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.555947] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.560480] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.605816] (-) TimerEvent: {}
+[0.706757] (-) TimerEvent: {}
+[0.764336] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.807247] (-) TimerEvent: {}
+[0.835194] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.907469] (-) TimerEvent: {}
+[1.008135] (-) TimerEvent: {}
+[1.042581] (class_test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.108328] (-) TimerEvent: {}
+[1.167432] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.182076] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.184697] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/python/robot_ws/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/python/robot_ws/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'python', 'LC_TIME': 'en_US.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/python', 'OLDPWD': '/home/python/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1423', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '63748', '_colcon_cd_root': '/home/python/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/python/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'python', 'JOURNAL_STREAM': '8:46547', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'python', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629', 'INVOCATION_ID': 'b88daee07015465ba8b902e860ac29ec', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:648b136d-1322-40ac-9aa5-2314cf028942', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/python/robot_ws/build/m_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/python/robot_ws/build/m_pubsub/prefix_override:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/python/robot_ws/build/move_turtle_pkg:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/python/robot_ws/build/m_pubsub:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.208527] (-) TimerEvent: {}
+[1.223253] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.223625] (class_test_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.263253] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.263648] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.263858] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.295713] (class_test_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.308735] (-) TimerEvent: {}
+[1.317057] (class_test_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.319624] (class_test_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.320921] (class_test_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.328080] (class_test_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.383448] (class_test_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.392297] (class_test_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/python/robot_ws/build/class_test_interfaces\n'}
+[1.408931] (-) TimerEvent: {}
+[1.451982] (class_test_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.458951] (class_test_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.509120] (-) TimerEvent: {}
+[1.609813] (-) TimerEvent: {}
+[1.633486] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[1.710040] (-) TimerEvent: {}
+[1.810699] (-) TimerEvent: {}
+[1.890142] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.890554] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[1.891198] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[1.891856] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[1.892224] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[1.892597] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[1.910945] (-) TimerEvent: {}
+[1.981882] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[1.983216] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[2.011080] (-) TimerEvent: {}
+[2.077862] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[2.078500] (m_pubsub) StdoutLine: {'line': b'Creating /home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[2.079887] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.080497] (m_pubsub) StdoutLine: {'line': b'Installing mp2 script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.083756] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.084122] (m_pubsub) StdoutLine: {'line': b'Installing mt script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.084481] (m_pubsub) StdoutLine: {'line': b'Installing tms script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.084817] (m_pubsub) StdoutLine: {'line': b'Installing tp script to /home/python/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[2.085313] (m_pubsub) StdoutLine: {'line': b'\n'}
+[2.085595] (m_pubsub) StdoutLine: {'line': b'Installed /home/python/robot_ws/build/m_pubsub\n'}
+[2.085830] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.111286] (-) TimerEvent: {}
+[2.121758] (m_pubsub) CommandEnded: {'returncode': 0}
+[2.192017] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[2.196684] (move_turtle_pkg) JobStarted: {'identifier': 'move_turtle_pkg'}
+[2.211452] (-) TimerEvent: {}
+[2.312234] (-) TimerEvent: {}
+[2.386535] (class_test_interfaces) StdoutLine: {'line': b'[  4%] Built target class_test_interfaces__cpp\n'}
+[2.405185] (class_test_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.412300] (-) TimerEvent: {}
+[2.513040] (-) TimerEvent: {}
+[2.558151] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.578332] (class_test_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/class_test_interfaces/msg/detail/intfloat__functions.c.o\x1b[0m\n'}
+[2.613209] (-) TimerEvent: {}
+[2.714000] (-) TimerEvent: {}
+[2.746160] (class_test_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/class_test_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[2.814560] (-) TimerEvent: {}
+[2.918771] (-) TimerEvent: {}
+[2.985899] (class_test_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/class_test_interfaces/srv/detail/minus_three_ints__functions.c.o\x1b[0m\n'}
+[3.018973] (-) TimerEvent: {}
+[3.119656] (-) TimerEvent: {}
+[3.220326] (-) TimerEvent: {}
+[3.245963] (class_test_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libclass_test_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.294828] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.320550] (-) TimerEvent: {}
+[3.358926] (class_test_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interfaces/msg/intfloat__type_support.cpp.o\x1b[0m\n'}
+[3.420709] (-) TimerEvent: {}
+[3.478777] (class_test_interfaces) StdoutLine: {'line': b'[ 17%] Built target class_test_interfaces__rosidl_generator_c\n'}
+[3.520935] (-) TimerEvent: {}
+[3.545866] (class_test_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.621111] (-) TimerEvent: {}
+[3.626728] (move_turtle_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/python/robot_ws/build/move_turtle_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/python/robot_ws/build/move_turtle_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'python', 'LC_TIME': 'en_US.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/python', 'OLDPWD': '/home/python/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1423', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '63748', '_colcon_cd_root': '/home/python/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/python/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'python', 'JOURNAL_STREAM': '8:46547', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'python', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629', 'INVOCATION_ID': 'b88daee07015465ba8b902e860ac29ec', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:648b136d-1322-40ac-9aa5-2314cf028942', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/python/robot_ws/build/move_turtle_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/python/robot_ws/build/move_turtle_pkg/prefix_override:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/python/robot_ws/build/move_turtle_pkg:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/python/robot_ws/build/m_pubsub:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.721365] (-) TimerEvent: {}
+[3.822008] (-) TimerEvent: {}
+[3.922686] (-) TimerEvent: {}
+[4.023281] (-) TimerEvent: {}
+[4.124035] (-) TimerEvent: {}
+[4.224724] (-) TimerEvent: {}
+[4.325436] (-) TimerEvent: {}
+[4.426105] (-) TimerEvent: {}
+[4.498124] (class_test_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.526316] (-) TimerEvent: {}
+[4.550651] (move_turtle_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.626495] (-) TimerEvent: {}
+[4.727180] (-) TimerEvent: {}
+[4.827865] (-) TimerEvent: {}
+[4.928584] (-) TimerEvent: {}
+[5.030239] (-) TimerEvent: {}
+[5.057727] (move_turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.058401] (move_turtle_pkg) StdoutLine: {'line': b'writing move_turtle_pkg.egg-info/PKG-INFO\n'}
+[5.059217] (move_turtle_pkg) StdoutLine: {'line': b'writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt\n'}
+[5.059878] (move_turtle_pkg) StdoutLine: {'line': b'writing entry points to move_turtle_pkg.egg-info/entry_points.txt\n'}
+[5.062073] (move_turtle_pkg) StdoutLine: {'line': b'writing requirements to move_turtle_pkg.egg-info/requires.txt\n'}
+[5.062674] (move_turtle_pkg) StdoutLine: {'line': b'writing top-level names to move_turtle_pkg.egg-info/top_level.txt\n'}
+[5.130440] (-) TimerEvent: {}
+[5.160717] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.161061] (move_turtle_pkg) StdoutLine: {'line': b"reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.162375] (move_turtle_pkg) StdoutLine: {'line': b"writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.230629] (-) TimerEvent: {}
+[5.279255] (move_turtle_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.281948] (move_turtle_pkg) StdoutLine: {'line': b'Creating /home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)\n'}
+[5.287696] (move_turtle_pkg) StdoutLine: {'line': b'Installing tp script to /home/python/robot_ws/install/move_turtle_pkg/lib/move_turtle_pkg\n'}
+[5.292004] (move_turtle_pkg) StdoutLine: {'line': b'\n'}
+[5.295655] (move_turtle_pkg) StdoutLine: {'line': b'Installed /home/python/robot_ws/build/move_turtle_pkg\n'}
+[5.296018] (move_turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.330867] (-) TimerEvent: {}
+[5.338132] (class_test_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interfaces/msg/detail/dds_fastrtps/intfloat__type_support.cpp.o\x1b[0m\n'}
+[5.390471] (move_turtle_pkg) CommandEnded: {'returncode': 0}
+[5.442004] (-) TimerEvent: {}
+[5.500156] (move_turtle_pkg) JobEnded: {'identifier': 'move_turtle_pkg', 'rc': 0}
+[5.540796] (class_test_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interfaces/srv/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.542176] (-) TimerEvent: {}
+[5.642849] (-) TimerEvent: {}
+[5.743541] (-) TimerEvent: {}
+[5.844229] (-) TimerEvent: {}
+[5.944911] (-) TimerEvent: {}
+[6.045611] (-) TimerEvent: {}
+[6.146267] (-) TimerEvent: {}
+[6.246985] (-) TimerEvent: {}
+[6.347659] (-) TimerEvent: {}
+[6.445475] (class_test_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libclass_test_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.447829] (-) TimerEvent: {}
+[6.532368] (class_test_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.546797] (class_test_interfaces) StdoutLine: {'line': b'[ 29%] Built target class_test_interfaces__rosidl_typesupport_cpp\n'}
+[6.548049] (-) TimerEvent: {}
+[6.610297] (class_test_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.648236] (-) TimerEvent: {}
+[6.748945] (-) TimerEvent: {}
+[6.858126] (-) TimerEvent: {}
+[6.961688] (-) TimerEvent: {}
+[7.062400] (-) TimerEvent: {}
+[7.163064] (-) TimerEvent: {}
+[7.263787] (-) TimerEvent: {}
+[7.364445] (-) TimerEvent: {}
+[7.465831] (-) TimerEvent: {}
+[7.569859] (-) TimerEvent: {}
+[7.606362] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.637917] (class_test_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interfaces/srv/detail/dds_fastrtps/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.670020] (-) TimerEvent: {}
+[7.722611] (class_test_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interfaces/msg/detail/intfloat__type_support.cpp.o\x1b[0m\n'}
+[7.772552] (-) TimerEvent: {}
+[7.881817] (-) TimerEvent: {}
+[7.982500] (-) TimerEvent: {}
+[8.089793] (-) TimerEvent: {}
+[8.190331] (-) TimerEvent: {}
+[8.291017] (-) TimerEvent: {}
+[8.391707] (-) TimerEvent: {}
+[8.444891] (class_test_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[8.491872] (-) TimerEvent: {}
+[8.592587] (-) TimerEvent: {}
+[8.693278] (-) TimerEvent: {}
+[8.793973] (-) TimerEvent: {}
+[8.819190] (class_test_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libclass_test_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.894121] (-) TimerEvent: {}
+[8.994874] (-) TimerEvent: {}
+[9.096027] (-) TimerEvent: {}
+[9.150938] (class_test_interfaces) StdoutLine: {'line': b'[ 40%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.166640] (class_test_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interfaces/srv/detail/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[9.180025] (class_test_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.196173] (-) TimerEvent: {}
+[9.296910] (-) TimerEvent: {}
+[9.397580] (-) TimerEvent: {}
+[9.498586] (-) TimerEvent: {}
+[9.599135] (-) TimerEvent: {}
+[9.700170] (-) TimerEvent: {}
+[9.803432] (-) TimerEvent: {}
+[9.903992] (-) TimerEvent: {}
+[10.004681] (-) TimerEvent: {}
+[10.090831] (class_test_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libclass_test_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.104879] (-) TimerEvent: {}
+[10.205722] (-) TimerEvent: {}
+[10.266451] (class_test_interfaces) StdoutLine: {'line': b'[ 46%] Built target class_test_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.270363] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.294804] (class_test_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.306249] (-) TimerEvent: {}
+[10.321046] (class_test_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interfaces/msg/detail/intfloat__type_support.c.o\x1b[0m\n'}
+[10.406446] (-) TimerEvent: {}
+[10.418188] (class_test_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[10.506664] (-) TimerEvent: {}
+[10.540760] (class_test_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interfaces/srv/detail/minus_three_ints__type_support.c.o\x1b[0m\n'}
+[10.586108] (class_test_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libclass_test_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.606875] (-) TimerEvent: {}
+[10.680653] (class_test_interfaces) StdoutLine: {'line': b'[ 57%] Built target class_test_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.694896] (class_test_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.709035] (-) TimerEvent: {}
+[10.809771] (-) TimerEvent: {}
+[10.910220] (-) TimerEvent: {}
+[11.011099] (-) TimerEvent: {}
+[11.111794] (-) TimerEvent: {}
+[11.141387] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[11.196868] (class_test_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interfaces/msg/intfloat__type_support.cpp.o\x1b[0m\n'}
+[11.211986] (-) TimerEvent: {}
+[11.288117] (class_test_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[11.312185] (-) TimerEvent: {}
+[11.388914] (class_test_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interfaces/srv/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[11.412369] (-) TimerEvent: {}
+[11.429919] (class_test_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libclass_test_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.512588] (-) TimerEvent: {}
+[11.532861] (class_test_interfaces) StdoutLine: {'line': b'[ 68%] Built target class_test_interfaces__rosidl_typesupport_c\n'}
+[11.612761] (-) TimerEvent: {}
+[11.620052] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.687200] (class_test_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[11.712954] (-) TimerEvent: {}
+[11.718121] (class_test_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interfaces/msg/detail/intfloat__type_support_c.cpp.o\x1b[0m\n'}
+[11.813177] (-) TimerEvent: {}
+[11.914338] (-) TimerEvent: {}
+[12.015051] (-) TimerEvent: {}
+[12.115716] (-) TimerEvent: {}
+[12.221865] (-) TimerEvent: {}
+[12.326023] (-) TimerEvent: {}
+[12.429736] (-) TimerEvent: {}
+[12.531515] (-) TimerEvent: {}
+[12.602842] (class_test_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interfaces/srv/detail/minus_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[12.632217] (-) TimerEvent: {}
+[12.732738] (-) TimerEvent: {}
+[12.833426] (-) TimerEvent: {}
+[12.934108] (-) TimerEvent: {}
+[13.034791] (-) TimerEvent: {}
+[13.128755] (class_test_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libclass_test_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.135011] (-) TimerEvent: {}
+[13.235718] (-) TimerEvent: {}
+[13.291891] (class_test_interfaces) StdoutLine: {'line': b'[ 76%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.305171] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces\x1b[0m\n'}
+[13.318532] (class_test_interfaces) StdoutLine: {'line': b'[ 76%] Built target class_test_interfaces\n'}
+[13.330873] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__py\x1b[0m\n'}
+[13.341845] (-) TimerEvent: {}
+[13.345046] (class_test_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.442013] (-) TimerEvent: {}
+[13.542715] (-) TimerEvent: {}
+[13.643405] (-) TimerEvent: {}
+[13.744090] (-) TimerEvent: {}
+[13.844797] (-) TimerEvent: {}
+[13.945443] (-) TimerEvent: {}
+[14.046156] (-) TimerEvent: {}
+[14.146845] (-) TimerEvent: {}
+[14.247542] (-) TimerEvent: {}
+[14.348200] (-) TimerEvent: {}
+[14.449932] (-) TimerEvent: {}
+[14.550607] (-) TimerEvent: {}
+[14.554315] (class_test_interfaces) StdoutLine: {'line': b'[ 78%] Built target class_test_interfaces__py\n'}
+[14.567685] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__python\x1b[0m\n'}
+[14.643744] (class_test_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__python.dir/rosidl_generator_py/class_test_interfaces/msg/_intfloat_s.c.o\x1b[0m\n'}
+[14.650779] (-) TimerEvent: {}
+[14.662292] (class_test_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__python.dir/rosidl_generator_py/class_test_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[14.753971] (-) TimerEvent: {}
+[14.854445] (-) TimerEvent: {}
+[14.949960] (class_test_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__python.dir/rosidl_generator_py/class_test_interfaces/srv/_minus_three_ints_s.c.o\x1b[0m\n'}
+[14.957783] (-) TimerEvent: {}
+[15.058504] (-) TimerEvent: {}
+[15.098241] (class_test_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/class_test_interfaces/libclass_test_interfaces__python.so\x1b[0m\n'}
+[15.171101] (-) TimerEvent: {}
+[15.196074] (class_test_interfaces) StdoutLine: {'line': b'[ 87%] Built target class_test_interfaces__python\n'}
+[15.225784] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.238159] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.271306] (-) TimerEvent: {}
+[15.294116] (class_test_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/class_test_interfaces/_class_test_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.313451] (class_test_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/class_test_interfaces/_class_test_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.371469] (-) TimerEvent: {}
+[15.474426] (-) TimerEvent: {}
+[15.532211] (class_test_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.574852] (-) TimerEvent: {}
+[15.579671] (class_test_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.605158] (class_test_interfaces) StdoutLine: {'line': b'[ 95%] Built target class_test_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.629093] (class_test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target class_test_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[15.675037] (-) TimerEvent: {}
+[15.692593] (class_test_interfaces) StdoutLine: {'line': b'[ 97%] Built target class_test_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.694711] (class_test_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/class_test_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/class_test_interfaces/_class_test_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.775246] (-) TimerEvent: {}
+[15.825434] (class_test_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.875435] (-) TimerEvent: {}
+[15.909882] (class_test_interfaces) StdoutLine: {'line': b'[100%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.937750] (class_test_interfaces) CommandEnded: {'returncode': 0}
+[15.981622] (-) TimerEvent: {}
+[16.073195] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'install'}
+[16.081796] (-) TimerEvent: {}
+[16.091650] (class_test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/python/robot_ws/build/class_test_interfaces'], 'cwd': '/home/python/robot_ws/build/class_test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'python'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1594'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/python'), ('OLDPWD', '/home/python/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1423'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '63748'), ('_colcon_cd_root', '/home/python/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/python/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'python'), ('JOURNAL_STREAM', '8:46547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'python'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629'), ('INVOCATION_ID', 'b88daee07015465ba8b902e860ac29ec'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:648b136d-1322-40ac-9aa5-2314cf028942'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/python/robot_ws/build/class_test_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/python/robot_ws/build/move_turtle_pkg:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/python/robot_ws/build/m_pubsub:/home/python/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/python/robot_ws/install/move_turtle_pkg:/home/python/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[16.119205] (class_test_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.121158] (class_test_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.122409] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/rosidl_interfaces/class_test_interfaces\n'}
+[16.149955] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__functions.h\n'}
+[16.174040] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__struct.h\n'}
+[16.182012] (-) TimerEvent: {}
+[16.191118] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__type_support.h\n'}
+[16.220082] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/intfloat.h\n'}
+[16.240054] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.256496] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/add_three_ints.h\n'}
+[16.269332] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[16.282150] (-) TimerEvent: {}
+[16.287515] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[16.305003] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[16.317206] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__functions.h\n'}
+[16.333482] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__struct.h\n'}
+[16.353187] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__type_support.h\n'}
+[16.365342] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/minus_three_ints.h\n'}
+[16.382351] (-) TimerEvent: {}
+[16.383691] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/library_path.sh\n'}
+[16.398134] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/library_path.dsv\n'}
+[16.414767] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h\n'}
+[16.430479] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.445343] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[16.467757] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[16.482518] (-) TimerEvent: {}
+[16.485283] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.500446] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.520197] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.532322] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.547195] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.565838] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.579404] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_c.h\n'}
+[16.582702] (-) TimerEvent: {}
+[16.593976] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.609768] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[16.622047] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[16.640829] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__builder.hpp\n'}
+[16.653205] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__struct.hpp\n'}
+[16.670084] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__traits.hpp\n'}
+[16.682899] (-) TimerEvent: {}
+[16.686633] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/intfloat.hpp\n'}
+[16.703996] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/add_three_ints.hpp\n'}
+[16.716785] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[16.737659] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[16.749694] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[16.769671] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__builder.hpp\n'}
+[16.783115] (-) TimerEvent: {}
+[16.786090] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__struct.hpp\n'}
+[16.803704] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__traits.hpp\n'}
+[16.816802] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/minus_three_ints.hpp\n'}
+[16.834962] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.856345] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.872940] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.883300] (-) TimerEvent: {}
+[16.891932] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/pythonpath.sh\n'}
+[16.909772] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/pythonpath.dsv\n'}
+[16.926017] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/__init__.py\n'}
+[16.942942] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/msg/__init__.py\n'}
+[16.958912] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/msg/_intfloat.py\n'}
+[16.979715] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/__init__.py\n'}
+[16.983487] (-) TimerEvent: {}
+[16.998624] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/_add_three_ints.py\n'}
+[17.015507] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/_minus_three_ints.py\n'}
+[17.036636] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.050072] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.066032] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.081959] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__python.so\n'}
+[17.083668] (-) TimerEvent: {}
+[17.100067] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/msg/Intfloat.idl\n'}
+[17.120276] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts.idl\n'}
+[17.134375] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts.idl\n'}
+[17.159049] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/msg/Intfloat.msg\n'}
+[17.181368] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts.srv\n'}
+[17.183907] (-) TimerEvent: {}
+[17.193493] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts_Request.msg\n'}
+[17.210332] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts_Response.msg\n'}
+[17.227830] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts.srv\n'}
+[17.243426] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts_Request.msg\n'}
+[17.259954] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts_Response.msg\n'}
+[17.273836] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/package_run_dependencies/class_test_interfaces\n'}
+[17.284069] (-) TimerEvent: {}
+[17.289439] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/parent_prefix_path/class_test_interfaces\n'}
+[17.305929] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/ament_prefix_path.sh\n'}
+[17.327354] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.341864] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/path.sh\n'}
+[17.354273] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/path.dsv\n'}
+[17.367564] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.bash\n'}
+[17.380104] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.sh\n'}
+[17.384243] (-) TimerEvent: {}
+[17.391602] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.zsh\n'}
+[17.403971] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.dsv\n'}
+[17.418327] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/package.dsv\n'}
+[17.430619] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/packages/class_test_interfaces\n'}
+[17.443178] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.454811] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.466941] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.479542] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.484438] (-) TimerEvent: {}
+[17.491610] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.504902] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.523438] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.538638] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfacesConfig.cmake\n'}
+[17.550908] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfacesConfig-version.cmake\n'}
+[17.562330] (class_test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/package.xml\n'}
+[17.578914] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_generator_c.so\n'}
+[17.580412] (class_test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_generator_c.so" to ""\n'}
+[17.581235] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.582316] (class_test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.582857] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_c.so\n'}
+[17.583705] (class_test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.584209] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.584439] (-) TimerEvent: {}
+[17.585365] (class_test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.585911] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.586763] (class_test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/python/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[17.646832] (class_test_interfaces) StdoutLine: {'line': b"Compiling '/home/python/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/__init__.py'...\n"}
+[17.652374] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cExport.cmake\n'}
+[17.653099] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.654840] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.655469] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.656159] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[17.656739] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.658829] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cppExport.cmake\n'}
+[17.659741] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.660541] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.661782] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[17.663831] (class_test_interfaces) StdoutLine: {'line': b'-- Installing: /home/python/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.681705] (class_test_interfaces) CommandEnded: {'returncode': 0}
+[17.685436] (-) TimerEvent: {}
+[17.786136] (-) TimerEvent: {}
+[17.888315] (-) TimerEvent: {}
+[17.918352] (class_test_interfaces) JobEnded: {'identifier': 'class_test_interfaces', 'rc': 0}
+[17.920176] (-) EventReactorShutdown: {}
