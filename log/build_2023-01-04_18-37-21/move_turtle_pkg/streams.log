@@ -1,0 +1,17 @@
+[1.345s] Invoking command in '/home/python/robot_ws/build/move_turtle_pkg': PYTHONPATH=/home/python/robot_ws/build/move_turtle_pkg/prefix_override:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[1.689s] running develop
+[2.009s] running egg_info
+[2.010s] writing move_turtle_pkg.egg-info/PKG-INFO
+[2.013s] writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt
+[2.015s] writing entry points to move_turtle_pkg.egg-info/entry_points.txt
+[2.016s] writing requirements to move_turtle_pkg.egg-info/requires.txt
+[2.016s] writing top-level names to move_turtle_pkg.egg-info/top_level.txt
+[2.103s] reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.108s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.189s] running build_ext
+[2.190s] Creating /home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)
+[2.191s] Installing tp script to /home/python/robot_ws/install/move_turtle_pkg/lib/move_turtle_pkg
+[2.192s] 
+[2.192s] Installed /home/python/robot_ws/build/move_turtle_pkg
+[2.192s] running install_data
+[2.293s] Invoked command in '/home/python/robot_ws/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/python/robot_ws/build/move_turtle_pkg/prefix_override:/home/python/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/move_turtle_pkg/build --no-deps install_data

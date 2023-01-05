@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
 from class_test_interfaces.action import Fibonacci
+from action_msgs.msg import GoalStatus
 
 class FibonacciActionClient(Node):
   def __init__(self):

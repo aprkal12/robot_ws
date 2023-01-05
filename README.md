@@ -64,3 +64,12 @@
   * class_test_interfaces.action에 제작
   * ActionServer (fibonacci_action_server 참고)
   * ActionClient (fibonacci_action_client 참고)
+
+---
+# 2023_01_05
+---
+
+* 인터페이스는 노드랑 따로 패키지를 만들어야한다.
+
+* 파라미터 실습
+* launch 파일 실습
