@@ -5,7 +5,7 @@ from launch.substitutions import TextSubstitution
 from launch.actions import DeclareLaunchArgument
 
 def generate_launch_description():
-  my_para_de = DeclareLaunchArgument('my_para', default_value= TextSubstitution(text='default_para'))
+  my_para_de = DeclareLaunchArgument('my_para_launch', default_value= TextSubstitution(text='default_para'))
   para_node = Node(
     package= 'test_para',
     executable='tp',

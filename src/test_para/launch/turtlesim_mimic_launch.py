@@ -21,8 +21,8 @@ def generate_launch_description():
       executable='mimic',
       name='mimic',
       remappings=[
-        ('/input/pose', 'turtlesim/turtle1/pose'),
-        ('/output/cmd_vel', 'turtlesim2/turtle1/cmd_vel'),
+        ('/input/pose', 'ns1/turtle1/pose'),
+        ('/output/cmd_vel', 'ns2/turtle1/cmd_vel'),
       ]
     )
   ])

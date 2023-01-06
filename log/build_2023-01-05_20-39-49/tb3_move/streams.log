@@ -1,0 +1,25 @@
+[1.195s] Invoking command in '/home/python/robot_ws/build/tb3_move': PYTHONPATH=/home/python/robot_ws/build/tb3_move/prefix_override:/home/python/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/tb3_move/build --no-deps install_data
+[1.507s] running develop
+[1.694s] running egg_info
+[1.695s] creating tb3_move.egg-info
+[1.696s] writing tb3_move.egg-info/PKG-INFO
+[1.697s] writing dependency_links to tb3_move.egg-info/dependency_links.txt
+[1.697s] writing entry points to tb3_move.egg-info/entry_points.txt
+[1.698s] writing requirements to tb3_move.egg-info/requires.txt
+[1.699s] writing top-level names to tb3_move.egg-info/top_level.txt
+[1.701s] writing manifest file 'tb3_move.egg-info/SOURCES.txt'
+[1.744s] reading manifest file 'tb3_move.egg-info/SOURCES.txt'
+[1.746s] writing manifest file 'tb3_move.egg-info/SOURCES.txt'
+[1.796s] running build_ext
+[1.797s] Creating /home/python/robot_ws/install/tb3_move/lib/python3.8/site-packages/site.py
+[1.800s] Creating /home/python/robot_ws/install/tb3_move/lib/python3.8/site-packages/tb3-move.egg-link (link to .)
+[1.801s] Installing tbp script to /home/python/robot_ws/install/tb3_move/lib/tb3_move
+[1.802s] 
+[1.802s] Installed /home/python/robot_ws/build/tb3_move
+[1.802s] running install_data
+[1.803s] creating /home/python/robot_ws/install/tb3_move/share/ament_index
+[1.803s] creating /home/python/robot_ws/install/tb3_move/share/ament_index/resource_index
+[1.803s] creating /home/python/robot_ws/install/tb3_move/share/ament_index/resource_index/packages
+[1.804s] copying resource/tb3_move -> /home/python/robot_ws/install/tb3_move/share/ament_index/resource_index/packages
+[1.804s] copying package.xml -> /home/python/robot_ws/install/tb3_move/share/tb3_move
+[1.835s] Invoked command in '/home/python/robot_ws/build/tb3_move' returned '0': PYTHONPATH=/home/python/robot_ws/build/tb3_move/prefix_override:/home/python/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/tb3_move/build --no-deps install_data
