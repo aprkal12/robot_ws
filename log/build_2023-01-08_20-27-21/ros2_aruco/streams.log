@@ -1,0 +1,19 @@
+[0.922s] Invoking command in '/home/python/robot_ws/build/ros2_aruco': PYTHONPATH=/home/python/robot_ws/build/ros2_aruco/prefix_override:/home/python/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/ros2_aruco/build --no-deps install_data
+[1.295s] running develop
+[1.532s] running egg_info
+[1.533s] writing ros2_aruco.egg-info/PKG-INFO
+[1.534s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[1.535s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[1.536s] writing requirements to ros2_aruco.egg-info/requires.txt
+[1.536s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[1.584s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.585s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.631s] running build_ext
+[1.631s] Creating /home/python/robot_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)
+[1.633s] Installing aruco_generate_marker script to /home/python/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[1.634s] Installing aruco_node script to /home/python/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[1.635s] 
+[1.635s] Installed /home/python/robot_ws/build/ros2_aruco
+[1.635s] running install_data
+[1.636s] error: can't copy 'resource/ros2_aruco': doesn't exist or not a regular file
+[1.666s] Invoked command in '/home/python/robot_ws/build/ros2_aruco' returned '1': PYTHONPATH=/home/python/robot_ws/build/ros2_aruco/prefix_override:/home/python/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/python/robot_ws/build/ros2_aruco/build --no-deps install_data

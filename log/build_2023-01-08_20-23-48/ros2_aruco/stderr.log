@@ -1,0 +1,2 @@
+package init file 'ros2_aruco/__init__.py' not found (or not a regular file)
+error: can't copy 'resource/ros2_aruco': doesn't exist or not a regular file
